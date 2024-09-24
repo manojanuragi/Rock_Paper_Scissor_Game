@@ -35,7 +35,7 @@ body {
 .score-board {
     display: flex;
     height: 15%;
-   
+    padding: 5px;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     gap: 1rem;
