@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+
+         
+ 
+        <!-- Scoreboard -->
+        <div class="score-board">
+            <div class="header">
+                <h1>Rock</h1>
+                <h1>Paper</h1>
+                <h1>Scissors</h1>
+            </div>
+
+            <div class="box-right">
+                <div class="score player-score">
+                    <h2>Your <br> Score:</h2>
+                    <p id="playerScore">0</p>
+                </div>
+                <div class="score computer-score">
+                    <h2>Computer <br>-Score</h2>
+                    <p id="computerScore">0</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Choices -->
+        <div class="choices" id="choices">
+            <button id="rock" class="choice-button"><img src="./images/fist.png" alt=""></button>
+            <button id="paper" class="choice-button"><img src="./images/hand.png" alt=""></button>
+            <button id="scissors" class="choice-button"><img src="./images/win.png" alt=""></button>
+        </div>
+
+        <!-- Result Display -->
+        <div class="result" id="result">
+            <div id="palyer-icon" >
+               
+            </div>
+            <div class="text">
+                <p id="resultMessage"></p>
+            <button  id="rep">replay</button>
+            </div>
+            
+            <div id="pc-icon">
+
+            </div>
+           
+        </div>
+
+        <!-- Rules Button -->
+        <button id="rulesButton" class="rules-btn">Rules</button>
+
+        <!-- Rules Modal -->
+        <div id="rulesModal" class="modal">
+            <div class="modal-content">
+               
+                 <div class="header">
+                    <h1>Game Rules</h1>
+                  </div>
+                  <ul class="list">
+                   <li><img src="./images/box.jpg" alt="" ><p>Rock beats scissors, scissors beat paper, and paper beats rock.</p></li>
+                   <li><img src="./images/box.jpg" alt="" ><p>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</p></li>
+                   <li><img src="./images/box.jpg" alt="" ><p>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</p></li>
+                   <li><img src="./images/box.jpg" alt="" ><p>If both players lay down the same hand, each player lays down another hand</p></li>
+                  </ul>
+                  <span class="close">&times; close</span>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
