@@ -33,6 +33,7 @@ body {
 
 /* Scoreboard */
 .score-board {
+    position:relative;
     display: flex;
     height: 15%;
     padding: 5px;
@@ -41,7 +42,7 @@ body {
     gap: 1rem;
     width: 80%;
     align-items: center;
-    max-height: 250px;
+    height: 200px;
    
 }
 .box-right {
